@@ -1,7 +1,9 @@
 package hello;
 
 public class Greeter {
-    public String sayHello() {
-			return "Hello world!";
+    public void sayHello() {
+			for(int i = 0; i < 4; i++){
+				System.out.println("Lucas lixo");
+			}
     }
 }
