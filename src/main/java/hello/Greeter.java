@@ -2,6 +2,8 @@ package hello;
 
 public class Greeter {
     public String sayHello() {
-        return "Hello world!";
+        for(int i = 0; i < 4; i++){
+			return "Hello world!";
+		}
     }
 }
